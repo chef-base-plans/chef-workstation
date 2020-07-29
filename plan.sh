@@ -1,11 +1,11 @@
 pkg_name=chef-workstation
 pkg_origin=chef
-pkg_version=20.6.62
+pkg_version=20.7.97
 pkg_maintainer="The Chef Maintainers <humans@chef.io>"
 pkg_description="Chef Workstation - Opinionated tools for getting the most out of the Chef ecosystem"
 pkg_license=('Apache-2.0')
 pkg_source="https://github.com/chef/chef-workstation/archive/${pkg_version}.tar.gz"
-pkg_shasum=432139f1a1c9ab7c4b57cb5b4ed9f4e3d5a8a9eb37d0e3287a5777ef2fcf62af
+pkg_shasum=2c17cacdbd69409e64933e26bc4136d04137d3cebda6ad2def482416b14dad24
 pkg_bin_dirs=(bin)
 pkg_svc_user=root
 ruby_pkg="core/ruby27"
